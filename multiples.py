@@ -8,15 +8,15 @@ os.system('clear')
 
 #   03 R 1
 #  _____
-#3 |10
+# 3 |10
 #  - 9
 #    1
 
-#print 3/10
-#print 3%10
+# print(3/10)
+# print(3%10)
 
 # ask for your n
-n = int(raw_input('What is the number you want to loop till? '))
+n = int(input('What is the number you want to loop till? '))
 
 # keep track of the sum
 total = 0
@@ -28,10 +28,10 @@ for i in range(n):
         total += i
 
 # print the answer
-print total
+print(total)
 
 # wait for the user to press enter to quit
-raw_input('\nPress enter to quit...')
+input('\nPress enter to quit...')
 
 # clear the console screen
 os.system('clear')
